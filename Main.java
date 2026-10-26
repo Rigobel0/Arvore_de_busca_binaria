@@ -6,7 +6,8 @@ void main() {
     tree.addNode(3);
     tree.addNode(11);
     tree.addNode(15);
-    tree.addNode(20);
+
+    tree.inOrder();
 
     System.out.print("Quantidade de folhas: " + tree.countLeaves());
     System.out.println(" ");
